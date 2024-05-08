@@ -1,0 +1,12 @@
+D:\GreeControlAPI\GreeControlAPI\obj\Docker\publish\GreeControlAPI.exe
+D:\GreeControlAPI\GreeControlAPI\obj\Docker\publish\appsettings.Development.json
+D:\GreeControlAPI\GreeControlAPI\obj\Docker\publish\appsettings.json
+D:\GreeControlAPI\GreeControlAPI\obj\Docker\publish\GreeControlAPI.dll
+D:\GreeControlAPI\GreeControlAPI\obj\Docker\publish\GreeControlAPI.deps.json
+D:\GreeControlAPI\GreeControlAPI\obj\Docker\publish\GreeControlAPI.runtimeconfig.json
+D:\GreeControlAPI\GreeControlAPI\obj\Docker\publish\GreeControlAPI.pdb
+D:\GreeControlAPI\GreeControlAPI\obj\Docker\publish\Microsoft.OpenApi.dll
+D:\GreeControlAPI\GreeControlAPI\obj\Docker\publish\Newtonsoft.Json.dll
+D:\GreeControlAPI\GreeControlAPI\obj\Docker\publish\Swashbuckle.AspNetCore.Swagger.dll
+D:\GreeControlAPI\GreeControlAPI\obj\Docker\publish\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\GreeControlAPI\GreeControlAPI\obj\Docker\publish\Swashbuckle.AspNetCore.SwaggerUI.dll

@@ -1,0 +1,39 @@
+{
+  "Version": 1,
+  "Hash": "Qc5rKY3eMHll0aVTPQULjsLMmZIbwSAvAa/JQQiAQdg=",
+  "Source": "GreeControlAPI",
+  "BasePath": "_content/GreeControlAPI",
+  "Mode": "Default",
+  "ManifestType": "Publish",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "GreeControlAPI\\wwwroot",
+      "Source": "GreeControlAPI",
+      "ContentRoot": "D:\\GreeControlAPI\\GreeControlAPI\\wwwroot\\",
+      "BasePath": "_content/GreeControlAPI",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "D:\\GreeControlAPI\\GreeControlAPI\\wwwroot\\Home.html",
+      "SourceId": "GreeControlAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\GreeControlAPI\\GreeControlAPI\\wwwroot\\",
+      "BasePath": "_content/GreeControlAPI",
+      "RelativePath": "Home.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Home.html"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+@GreeControlAPI_HostAddress = http://localhost:5073
+
+GET {{GreeControlAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
