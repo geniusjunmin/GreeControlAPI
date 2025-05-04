@@ -1,12 +1,64 @@
+using Microsoft.Extensions.DependencyInjection;
+using Quartz;
+using Quartz.Impl;
+using Quartz.Spi;
+using GreeControlAPI.Services;
+using GreeControlAPI.Jobs;
+using Quartz.Impl.AdoJobStore;
+
 var builder = WebApplication.CreateBuilder(args);
 
+// Add Quartz services
+builder.Services.AddQuartz(q =>
+{
+    q.UseMicrosoftDependencyInjectionJobFactory();
+    
+    q.UsePersistentStore(store =>
+    {
+store.UseSQLite(c => 
+{
+    c.ConnectionString = "Data Source=./quartz.db";
+    c.TablePrefix = "QRTZ_";
+});
+        store.UseJsonSerializer();
+        
+        store.SetProperty("quartz.jobStore.type", "Quartz.Impl.AdoJobStore.JobStoreTX, Quartz");
+        store.SetProperty("quartz.serializer.type", "json");
+        store.SetProperty("quartz.dataSource.default.connectionString", "Data Source=quartz.db");
+        store.SetProperty("quartz.dataSource.default.provider", "SQLite-Microsoft");
+store.SetProperty("quartz.jobStore.driverDelegateType", "Quartz.Impl.AdoJobStore.SQLiteDelegate, Quartz");
+store.SetProperty("quartz.jobStore.performSchemaValidation", "false");
+    });
+});
+
+// Add Quartz hosted service
+builder.Services.AddQuartzHostedService(options => {
+    options.WaitForJobsToComplete = true;
+});
+
 // Add services to the container.
+builder.Services.AddLogging();
+builder.Services.AddSingleton<IJobFactory, SingletonJobFactory>();
+builder.Services.AddHttpClient();
+builder.Services.AddHttpContextAccessor();
+builder.Services.AddSingleton<AirConditionerService>(sp => 
+    new AirConditionerService(
+        sp.GetRequiredService<ISchedulerFactory>(),
+        sp.GetRequiredService<ILogger<AirConditionerService>>(),
+        sp.GetRequiredService<HttpClient>(),
+        sp.GetRequiredService<IConfiguration>(),
+        sp.GetRequiredService<IHttpContextAccessor>()
+    )
+);
+builder.Services.AddSingleton<AirConditionerJob>();
+
+// Add Quartz hosted service
+builder.Services.AddHostedService<QuartzHostedService>();
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
-
 
 builder.Services.AddCors(options =>
 {
@@ -19,27 +71,21 @@ builder.Services.AddCors(options =>
         });
 });
 
-
-
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
-//if (app.Environment.IsDevelopment())
-//{
-    app.UseSwagger();
-    app.UseSwaggerUI();
-//}
+app.UseSwagger();
+app.UseSwaggerUI();
 
 //app.UseHttpsRedirection();
-//ÆôÓÃ¾²Ì¬ÎÄ¼ş
+//å¯ç”¨é™æ€æ–‡ä»¶
 app.UseStaticFiles();
-//ÕâÒ»²½ºÜ¹Ø¼ü
+//è¿™ä¸€æ­¥å¾ˆå…³é”®
 DefaultFilesOptions defaultFilesOptions = new DefaultFilesOptions();
 defaultFilesOptions.DefaultFileNames.Clear();
-//ÉèÖÃÊ×Ò³£¬ÎÒÏ£ÍûÓÃ»§´ò¿ª`localhost`·ÃÎÊµ½µÄÊÇ`wwwroot`ÏÂµÄIndex.htmlÎÄ¼ş
+//è®¾ç½®é¦–é¡µï¼Œæˆ‘å¸Œæœ›ç”¨æˆ·æ‰“å¼€`localhost`è®¿é—®åˆ°çš„æ˜¯`wwwroot`ä¸‹çš„Index.htmlæ–‡ä»¶
 defaultFilesOptions.DefaultFileNames.Add("Home.html");
 app.UseDefaultFiles(defaultFilesOptions);
-
 
 app.UseCors("AllowAllOrigins");
 

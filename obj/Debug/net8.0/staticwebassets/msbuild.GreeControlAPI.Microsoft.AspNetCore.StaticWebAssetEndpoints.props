@@ -1,0 +1,52 @@
+﻿<Project>
+  <ItemGroup>
+    <StaticWebAssetEndpoint Include="_content/GreeControlAPI/css/my.3kta14wv9j.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\my.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"3kta14wv9j"},{"Name":"integrity","Value":"sha256-3Vrj/ZChWb3o0n01qSHsqzJeEP11CHfm8NlTve/fafM="},{"Name":"label","Value":"_content/GreeControlAPI/css/my.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"4334"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u00223Vrj/ZChWb3o0n01qSHsqzJeEP11CHfm8NlTve/fafM=\u0022"},{"Name":"Last-Modified","Value":"Sun, 04 May 2025 10:49:56 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/GreeControlAPI/css/my.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\my.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-3Vrj/ZChWb3o0n01qSHsqzJeEP11CHfm8NlTve/fafM="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"4334"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u00223Vrj/ZChWb3o0n01qSHsqzJeEP11CHfm8NlTve/fafM=\u0022"},{"Name":"Last-Modified","Value":"Sun, 04 May 2025 10:49:56 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/GreeControlAPI/favicon.ico">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\favicon.ico'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-GZvt5O7a8428YcttJSUdnR12PYa1KpkFMWQljpWE/PA="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"99678"},{"Name":"Content-Type","Value":"image/x-icon"},{"Name":"ETag","Value":"\u0022GZvt5O7a8428YcttJSUdnR12PYa1KpkFMWQljpWE/PA=\u0022"},{"Name":"Last-Modified","Value":"Mon, 29 Jul 2024 08:25:24 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/GreeControlAPI/favicon.nwl805h8ht.ico">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\favicon.ico'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"nwl805h8ht"},{"Name":"integrity","Value":"sha256-GZvt5O7a8428YcttJSUdnR12PYa1KpkFMWQljpWE/PA="},{"Name":"label","Value":"_content/GreeControlAPI/favicon.ico"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"99678"},{"Name":"Content-Type","Value":"image/x-icon"},{"Name":"ETag","Value":"\u0022GZvt5O7a8428YcttJSUdnR12PYa1KpkFMWQljpWE/PA=\u0022"},{"Name":"Last-Modified","Value":"Mon, 29 Jul 2024 08:25:24 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/GreeControlAPI/Home.gpzisiyzpr.html">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Home.html'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"gpzisiyzpr"},{"Name":"integrity","Value":"sha256-RIkS7dehT74Sfh/re8z9UTNQmbmJ/k55ZUC0jHY0Ndw="},{"Name":"label","Value":"_content/GreeControlAPI/Home.html"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"2133"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022RIkS7dehT74Sfh/re8z9UTNQmbmJ/k55ZUC0jHY0Ndw=\u0022"},{"Name":"Last-Modified","Value":"Sun, 04 May 2025 10:26:46 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/GreeControlAPI/Home.html">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Home.html'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-RIkS7dehT74Sfh/re8z9UTNQmbmJ/k55ZUC0jHY0Ndw="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"2133"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022RIkS7dehT74Sfh/re8z9UTNQmbmJ/k55ZUC0jHY0Ndw=\u0022"},{"Name":"Last-Modified","Value":"Sun, 04 May 2025 10:26:46 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/GreeControlAPI/js/ctrlcmd.9zi8r6t9fw.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\ctrlcmd.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"9zi8r6t9fw"},{"Name":"integrity","Value":"sha256-FfWt7zbuUaVZ/iaNLRUD7TQK0FX6lAlLfb5X5uOhrn8="},{"Name":"label","Value":"_content/GreeControlAPI/js/ctrlcmd.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"22724"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022FfWt7zbuUaVZ/iaNLRUD7TQK0FX6lAlLfb5X5uOhrn8=\u0022"},{"Name":"Last-Modified","Value":"Sun, 04 May 2025 10:21:01 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/GreeControlAPI/js/ctrlcmd.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\ctrlcmd.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-FfWt7zbuUaVZ/iaNLRUD7TQK0FX6lAlLfb5X5uOhrn8="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"22724"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022FfWt7zbuUaVZ/iaNLRUD7TQK0FX6lAlLfb5X5uOhrn8=\u0022"},{"Name":"Last-Modified","Value":"Sun, 04 May 2025 10:21:01 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+  </ItemGroup>
+</Project>

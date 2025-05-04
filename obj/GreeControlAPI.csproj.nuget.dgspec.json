@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\GreeControlAPI\\GreeControlAPI\\GreeControlAPI.csproj": {}
+    "D:\\Desktop\\GreeControlAPI\\GreeControlAPI\\GreeControlAPI.csproj": {}
   },
   "projects": {
-    "D:\\GreeControlAPI\\GreeControlAPI\\GreeControlAPI.csproj": {
+    "D:\\Desktop\\GreeControlAPI\\GreeControlAPI\\GreeControlAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\GreeControlAPI\\GreeControlAPI\\GreeControlAPI.csproj",
+        "projectUniqueName": "D:\\Desktop\\GreeControlAPI\\GreeControlAPI\\GreeControlAPI.csproj",
         "projectName": "GreeControlAPI",
-        "projectPath": "D:\\GreeControlAPI\\GreeControlAPI\\GreeControlAPI.csproj",
+        "projectPath": "D:\\Desktop\\GreeControlAPI\\GreeControlAPI\\GreeControlAPI.csproj",
         "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "D:\\GreeControlAPI\\GreeControlAPI\\obj\\",
+        "outputPath": "D:\\Desktop\\GreeControlAPI\\GreeControlAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -39,12 +39,22 @@
           "warnAsError": [
             "NU1605"
           ]
-        }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.Data.Sqlite": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
             "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
               "target": "Package",
               "version": "[1.19.6, )"
@@ -52,6 +62,22 @@
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[13.0.3, )"
+            },
+            "Quartz": {
+              "target": "Package",
+              "version": "[3.8.0, )"
+            },
+            "Quartz.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[3.6.2, )"
+            },
+            "Quartz.Plugins": {
+              "target": "Package",
+              "version": "[3.8.0, )"
+            },
+            "Quartz.Serialization.Json": {
+              "target": "Package",
+              "version": "[3.8.0, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
@@ -77,7 +103,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

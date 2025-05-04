@@ -1,8 +1,24 @@
 {
   "Files": [
     {
-      "Id": "D:\\GreeControlAPI\\GreeControlAPI\\wwwroot\\Home.html",
+      "Id": "D:\\Desktop\\GreeControlAPI\\GreeControlAPI\\wwwroot\\Home.html",
       "PackagePath": "staticwebassets\\Home.html"
+    },
+    {
+      "Id": "D:\\Desktop\\GreeControlAPI\\GreeControlAPI\\wwwroot\\css\\my.css",
+      "PackagePath": "staticwebassets\\css\\my.css"
+    },
+    {
+      "Id": "D:\\Desktop\\GreeControlAPI\\GreeControlAPI\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\Desktop\\GreeControlAPI\\GreeControlAPI\\wwwroot\\js\\ctrlcmd.js",
+      "PackagePath": "staticwebassets\\js\\ctrlcmd.js"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.GreeControlAPI.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.GreeControlAPI.Microsoft.AspNetCore.StaticWebAssets.props",

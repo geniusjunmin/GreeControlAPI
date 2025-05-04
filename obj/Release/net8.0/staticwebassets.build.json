@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "mkS3n0zhsP2+QCHZmfYOu2A3nUIYCZWJzF8LAEVHgf0=",
+  "Hash": "ImsVqquOXLHV/Di3V9J/cXJ2UhnYLyWj4/0ZB3ybPdk=",
   "Source": "GreeControlAPI",
   "BasePath": "_content/GreeControlAPI",
   "Mode": "Default",
@@ -16,6 +16,25 @@
     }
   ],
   "Assets": [
+    {
+      "Identity": "D:\\GreeControlAPI\\GreeControlAPI\\wwwroot\\favicon.ico",
+      "SourceId": "GreeControlAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\GreeControlAPI\\GreeControlAPI\\wwwroot\\",
+      "BasePath": "_content/GreeControlAPI",
+      "RelativePath": "favicon.ico",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
     {
       "Identity": "D:\\GreeControlAPI\\GreeControlAPI\\wwwroot\\Home.html",
       "SourceId": "GreeControlAPI",

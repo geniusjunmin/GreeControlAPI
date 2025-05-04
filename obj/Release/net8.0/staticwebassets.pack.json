@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\Home.html"
     },
     {
+      "Id": "D:\\GreeControlAPI\\GreeControlAPI\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
       "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.GreeControlAPI.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },

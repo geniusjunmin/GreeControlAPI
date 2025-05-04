@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "mkS3n0zhsP2+QCHZmfYOu2A3nUIYCZWJzF8LAEVHgf0=",
+  "Hash": "2zP7TFIbeaHYmqSy2Eap6I8N8/cJwPTYC8lhxN43+ko=",
   "Source": "GreeControlAPI",
   "BasePath": "_content/GreeControlAPI",
   "Mode": "Default",
@@ -10,30 +10,425 @@
     {
       "Name": "GreeControlAPI\\wwwroot",
       "Source": "GreeControlAPI",
-      "ContentRoot": "D:\\GreeControlAPI\\GreeControlAPI\\wwwroot\\",
+      "ContentRoot": "D:\\Desktop\\GreeControlAPI\\GreeControlAPI\\wwwroot\\",
       "BasePath": "_content/GreeControlAPI",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "D:\\GreeControlAPI\\GreeControlAPI\\wwwroot\\Home.html",
+      "Identity": "D:\\Desktop\\GreeControlAPI\\GreeControlAPI\\wwwroot\\css\\my.css",
       "SourceId": "GreeControlAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\GreeControlAPI\\GreeControlAPI\\wwwroot\\",
+      "ContentRoot": "D:\\Desktop\\GreeControlAPI\\GreeControlAPI\\wwwroot\\",
       "BasePath": "_content/GreeControlAPI",
-      "RelativePath": "Home.html",
+      "RelativePath": "css/my#[.{fingerprint}]?.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeBehavior": "",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "3kta14wv9j",
+      "Integrity": "3Vrj/ZChWb3o0n01qSHsqzJeEP11CHfm8NlTve/fafM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\my.css"
+    },
+    {
+      "Identity": "D:\\Desktop\\GreeControlAPI\\GreeControlAPI\\wwwroot\\favicon.ico",
+      "SourceId": "GreeControlAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Desktop\\GreeControlAPI\\GreeControlAPI\\wwwroot\\",
+      "BasePath": "_content/GreeControlAPI",
+      "RelativePath": "favicon#[.{fingerprint}]?.ico",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "nwl805h8ht",
+      "Integrity": "GZvt5O7a8428YcttJSUdnR12PYa1KpkFMWQljpWE/PA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "D:\\Desktop\\GreeControlAPI\\GreeControlAPI\\wwwroot\\Home.html",
+      "SourceId": "GreeControlAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Desktop\\GreeControlAPI\\GreeControlAPI\\wwwroot\\",
+      "BasePath": "_content/GreeControlAPI",
+      "RelativePath": "Home#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "gpzisiyzpr",
+      "Integrity": "RIkS7dehT74Sfh/re8z9UTNQmbmJ/k55ZUC0jHY0Ndw=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Home.html"
+    },
+    {
+      "Identity": "D:\\Desktop\\GreeControlAPI\\GreeControlAPI\\wwwroot\\js\\ctrlcmd.js",
+      "SourceId": "GreeControlAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Desktop\\GreeControlAPI\\GreeControlAPI\\wwwroot\\",
+      "BasePath": "_content/GreeControlAPI",
+      "RelativePath": "js/ctrlcmd#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "9zi8r6t9fw",
+      "Integrity": "FfWt7zbuUaVZ/iaNLRUD7TQK0FX6lAlLfb5X5uOhrn8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\ctrlcmd.js"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "css/my.3kta14wv9j.css",
+      "AssetFile": "D:\\Desktop\\GreeControlAPI\\GreeControlAPI\\wwwroot\\css\\my.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4334"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3Vrj/ZChWb3o0n01qSHsqzJeEP11CHfm8NlTve/fafM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 04 May 2025 10:49:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "3kta14wv9j"
+        },
+        {
+          "Name": "label",
+          "Value": "css/my.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-3Vrj/ZChWb3o0n01qSHsqzJeEP11CHfm8NlTve/fafM="
+        }
+      ]
+    },
+    {
+      "Route": "css/my.css",
+      "AssetFile": "D:\\Desktop\\GreeControlAPI\\GreeControlAPI\\wwwroot\\css\\my.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4334"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3Vrj/ZChWb3o0n01qSHsqzJeEP11CHfm8NlTve/fafM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 04 May 2025 10:49:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-3Vrj/ZChWb3o0n01qSHsqzJeEP11CHfm8NlTve/fafM="
+        }
+      ]
+    },
+    {
+      "Route": "favicon.ico",
+      "AssetFile": "D:\\Desktop\\GreeControlAPI\\GreeControlAPI\\wwwroot\\favicon.ico",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "99678"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/x-icon"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"GZvt5O7a8428YcttJSUdnR12PYa1KpkFMWQljpWE/PA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 29 Jul 2024 08:25:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-GZvt5O7a8428YcttJSUdnR12PYa1KpkFMWQljpWE/PA="
+        }
+      ]
+    },
+    {
+      "Route": "favicon.nwl805h8ht.ico",
+      "AssetFile": "D:\\Desktop\\GreeControlAPI\\GreeControlAPI\\wwwroot\\favicon.ico",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "99678"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/x-icon"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"GZvt5O7a8428YcttJSUdnR12PYa1KpkFMWQljpWE/PA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 29 Jul 2024 08:25:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "nwl805h8ht"
+        },
+        {
+          "Name": "label",
+          "Value": "favicon.ico"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-GZvt5O7a8428YcttJSUdnR12PYa1KpkFMWQljpWE/PA="
+        }
+      ]
+    },
+    {
+      "Route": "Home.gpzisiyzpr.html",
+      "AssetFile": "D:\\Desktop\\GreeControlAPI\\GreeControlAPI\\wwwroot\\Home.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2133"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"RIkS7dehT74Sfh/re8z9UTNQmbmJ/k55ZUC0jHY0Ndw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 04 May 2025 10:26:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "gpzisiyzpr"
+        },
+        {
+          "Name": "label",
+          "Value": "Home.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-RIkS7dehT74Sfh/re8z9UTNQmbmJ/k55ZUC0jHY0Ndw="
+        }
+      ]
+    },
+    {
+      "Route": "Home.html",
+      "AssetFile": "D:\\Desktop\\GreeControlAPI\\GreeControlAPI\\wwwroot\\Home.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2133"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"RIkS7dehT74Sfh/re8z9UTNQmbmJ/k55ZUC0jHY0Ndw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 04 May 2025 10:26:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-RIkS7dehT74Sfh/re8z9UTNQmbmJ/k55ZUC0jHY0Ndw="
+        }
+      ]
+    },
+    {
+      "Route": "js/ctrlcmd.9zi8r6t9fw.js",
+      "AssetFile": "D:\\Desktop\\GreeControlAPI\\GreeControlAPI\\wwwroot\\js\\ctrlcmd.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "22724"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FfWt7zbuUaVZ/iaNLRUD7TQK0FX6lAlLfb5X5uOhrn8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 04 May 2025 10:21:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "9zi8r6t9fw"
+        },
+        {
+          "Name": "label",
+          "Value": "js/ctrlcmd.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-FfWt7zbuUaVZ/iaNLRUD7TQK0FX6lAlLfb5X5uOhrn8="
+        }
+      ]
+    },
+    {
+      "Route": "js/ctrlcmd.js",
+      "AssetFile": "D:\\Desktop\\GreeControlAPI\\GreeControlAPI\\wwwroot\\js\\ctrlcmd.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "22724"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FfWt7zbuUaVZ/iaNLRUD7TQK0FX6lAlLfb5X5uOhrn8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 04 May 2025 10:21:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-FfWt7zbuUaVZ/iaNLRUD7TQK0FX6lAlLfb5X5uOhrn8="
+        }
+      ]
     }
   ]
 }

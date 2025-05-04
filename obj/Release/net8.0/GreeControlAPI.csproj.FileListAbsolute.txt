@@ -25,10 +25,10 @@ D:\GreeControlAPI\GreeControlAPI\obj\Release\net8.0\staticwebassets\msbuild.buil
 D:\GreeControlAPI\GreeControlAPI\obj\Release\net8.0\staticwebassets\msbuild.buildTransitive.GreeControlAPI.props
 D:\GreeControlAPI\GreeControlAPI\obj\Release\net8.0\staticwebassets.pack.json
 D:\GreeControlAPI\GreeControlAPI\obj\Release\net8.0\scopedcss\bundle\GreeControlAPI.styles.css
-D:\GreeControlAPI\GreeControlAPI\obj\Release\net8.0\GreeCont.914373D7.Up2Date
 D:\GreeControlAPI\GreeControlAPI\obj\Release\net8.0\GreeControlAPI.dll
 D:\GreeControlAPI\GreeControlAPI\obj\Release\net8.0\refint\GreeControlAPI.dll
 D:\GreeControlAPI\GreeControlAPI\obj\Release\net8.0\GreeControlAPI.pdb
 D:\GreeControlAPI\GreeControlAPI\obj\Release\net8.0\GreeControlAPI.genruntimeconfig.cache
 D:\GreeControlAPI\GreeControlAPI\obj\Release\net8.0\ref\GreeControlAPI.dll
 D:\GreeControlAPI\GreeControlAPI\bin\Release\net8.0\GreeControlAPI.staticwebassets.runtime.json
+D:\GreeControlAPI\GreeControlAPI\obj\Release\net8.0\GreeControlAPI.csproj.CopyComplete

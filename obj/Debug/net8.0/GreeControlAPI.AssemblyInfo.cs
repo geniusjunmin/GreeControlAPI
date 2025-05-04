@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GreeControlAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c4e86e0e3eca4423167b1b279e7b04bd5a014201")]
 [assembly: System.Reflection.AssemblyProductAttribute("GreeControlAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GreeControlAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -68,7 +68,7 @@ namespace GreeControlAPI.Controllers
 
                 var bytes = Encoding.ASCII.GetBytes("{ \"t\": \"scan\" }");
 
-                await udpClient.SendAsync(bytes, bytes.Length, "192.168.0.255", 7000);
+                await udpClient.SendAsync(bytes, bytes.Length, "192.168.0.125", 7000);
 
                 for (int i = 0; i < 20; ++i)
                 {
@@ -153,7 +153,7 @@ namespace GreeControlAPI.Controllers
             return BadRequest("Invalid Request");
         }
 
-
+  
 
 
         [HttpGet("GetStatus")]
@@ -222,6 +222,11 @@ namespace GreeControlAPI.Controllers
         [HttpGet("SendCMD")]
         public async Task<ActionResult<string>> SendCMD(string mainmac, string mac, string key, string ip,string CMDstr,int CMDvalue)
         {
+
+            if (mac == "98fcc518000000")
+            {
+                return "Error";
+            }
             DeviceStatus DeviceStatusInfo = new DeviceStatus();
             CommandRequestPack crp = CommandRequestPack.Create(mac, new List<string> { CMDstr}, new List<int> { CMDvalue });
             
