@@ -1,0 +1,225 @@
+.temperature-gauge {
+    position: absolute;
+    left: 35px;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 200px;
+    width: 88px;
+    background-color: #ccc;
+    border-radius: 10px;
+}
+
+    .temperature-gauge .fill {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        height: 0;
+        width: 100%;
+        background-color: #ff0000;
+        border-radius: 10px;
+        transition: height 0.5s;
+    }
+
+    .temperature-gauge .handle {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        height: 20px;
+        width: 100%;
+        background-color: #fff;
+        border-radius: 10%;
+        cursor: move;
+    }
+
+.wind-slider {
+    position: absolute;
+    right: 35px;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 200px;
+    width: 88px;
+    background-color: #ccc;
+    border-radius: 10px;
+}
+
+    .wind-slider .fill {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        height: 0;
+        width: 100%;
+        background-color: #007bff; /* blue color */
+        border-radius: 10px;
+        transition: height 0.5s;
+    }
+
+    .wind-slider .handle {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        height: 20px;
+        width: 100%;
+        background-color: #fff;
+        border-radius: 10%;
+        cursor: move;
+        /*background-color: transparent; /* 将背景颜色设置为透明 */
+    }
+
+.temperature-label {
+    user-select: none;
+    position: absolute;
+    top: 230px;
+    left: 25px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.wind-label {
+    user-select: none;
+    position: absolute;
+    top: 230px;
+    left: 25px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+body {
+    overflow: hidden;
+}
+
+.timer-controls {
+    z-index: 10;
+}
+
+.timer-btn {
+    padding: 10px 20px;
+    background-color: #00a8ff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.timer-btn:hover {
+    background-color: #0097e6;
+}
+
+.timer-list {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.timer-header {
+    display: grid;
+    grid-template-columns: 2fr 2fr 1.5fr 3fr 1.5fr;
+    font-weight: bold;
+    padding: 12px 15px;
+    border-bottom: 2px solid #ddd;
+    background-color: #f8f9fa;
+}
+
+.timer-item {
+    display: grid;
+    grid-template-columns: 2fr 2fr 1.5fr 3fr 1.5fr;
+    padding: 12px 15px;
+    border-bottom: 1px solid #eee;
+    align-items: center;
+    transition: background-color 0.2s;
+}
+
+.timer-item:hover {
+    background-color: #f8f9fa;
+}
+
+.timer-item span {
+    padding: 0 10px;
+}
+
+.timer-header span,
+.timer-item span {
+    padding: 0 10px;
+}
+
+.timer-header span:nth-child(1),
+.timer-item span:nth-child(1) {
+    font-weight: 500;
+}
+
+.timer-header span:nth-child(2),
+.timer-item span:nth-child(2) {
+    font-family: monospace;
+    color: #666;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.timer-header span:nth-child(3),
+.timer-item span:nth-child(3) {
+    text-align: center;
+}
+
+.timer-header span:nth-child(4),
+.timer-item span:nth-child(4) {
+    color: #007bff;
+    white-space: normal;
+}
+
+.timer-header span:nth-child(5),
+.timer-item span:nth-child(5) {
+    text-align: right;
+}
+
+.timer-item:last-child {
+    border-bottom: none;
+}
+
+.timer-action {
+    color: #00a8ff;
+    cursor: pointer;
+}
+
+.timer-action:hover {
+    text-decoration: underline;
+}
+
+/* Toast 提示信息样式 */
+.toast {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 12px 24px;
+    border-radius: 4px;
+    color: white;
+    font-size: 14px;
+    z-index: 1000;
+    animation: fadeIn 0.3s ease-in-out;
+}
+
+.toast-success {
+    background-color: #28a745;
+}
+
+.toast-error {
+    background-color: #dc3545;
+}
+
+.toast-info {
+    background-color: #17a2b8;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translate(-50%, 20px);
+    }
+    to {
+        opacity: 1;
+        transform: translate(-50%, 0);
+    }
+}
